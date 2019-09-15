@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*
+    Topic: The History of Moe in Anime
+	  
+    Author: Nkem Ohanenye
+    Date: 11/16/18  
+
+    Filename: extra.css
+
+*/
+/* Section Style */
+section {
+	padding-bottom: 20px;
+}
+
+
+/* Table Styles */
+table#popular {
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	text-align: center;
+	width: 90%;
+	width: 500px;
+}
+
+table#selling {
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	text-align: center;
+	width: 90%;
+}
+
+thead {
+	background-color: rgb(153,51,0);
+}
+
+tr.whitebar {
+	background-color: rgb(255,255,255);
+}
+
+tr.pinkbar {
+	background-color: rgb(255,227,204);
+}

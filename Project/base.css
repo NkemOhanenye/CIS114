@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+/*
+    Topic: The History of Moe in Anime
+	  
+    Author: Nkem Ohanenye
+    Date: 11/16/18  
+
+    Filename: base.css
+
+*/
+
+/* Document Orientation */
+html {
+	background-color: rgb(25,25,25);
+}	
+
+body {
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+html, body {
+	color: white;
+}
+
+/* Logo */
+.logo > figure {
+	position: ;
+	display: block;
+	margin: 0;
+}
+
+.logo {
+	position: relative;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.logo_capt {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+	font-family: "Helvetica";
+}
+
+.header {
+	position: absolute;
+	font-family: "Helvetica";
+    top: 25%;
+    left: 16px;
+}
+
+/* Navigational Toolbar */
+
+nav.toolbar ul {
+	font-family: "Helvetica";
+	background-color: black;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border-bottom: 2px solid red;
+}
+nav.toolbar ul li {
+	display: inline-block;
+	width: 15%;
+}
+
+nav.toolbar a {
+	text-decoration: none;
+	font-family: "Helvetica";
+	color: white;
+	display: block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+nav.toolbar a:hover {
+	background: red;
+	transition: 0.2s;
+}
+
+/* Body Styles */
+body {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	max-width: 960px;
+	min-width: 640px;
+	width: 100%;
+	background-color: black;
+	box-shadow: rgb(51, 51, 51) 15px 0px 25px, rgb(51, 51, 51) -15px 0px 25px;
+	font-family: "Helvetica";
+}
+
+.container {
+	-webkit-flex: 100 0 auto;
+	flex: 100 0 auto;
+}
+
+.footer {
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+	background-color: black;
+	color: white;
+	font-family: "Helvetica";
+	border-top: 2px solid red;
+}
+
+/* Footer */
+.footer {
+	padding: 15px;
+}

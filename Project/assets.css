@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/*
+    Topic: The History of Moe in Anime
+	  
+    Author: Nkem Ohanenye
+    Date: 11/16/18  
+
+    Filename: assets.css
+
+*/
+
+/* Body Assets */
+h1, h3 {
+	font-family: "Helvetica";
+}
+
+h3 {
+	color: red;
+}
+
+p {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: "Helvetica";
+}
+
+center {
+	text-align: center;
+}
+
+cite {
+	color: blue;
+}
+
+abbr {
+	color: green;
+}
+
+.bottom img {
+	padding-bottom: 20px;
+}

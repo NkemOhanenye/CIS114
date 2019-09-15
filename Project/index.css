@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*
+    Topic: The History of Moe in Anime
+	  
+    Author: Nkem Ohanenye
+    Date: 11/16/18  
+
+    Filename: index.css
+
+*/
+
+/* Comparison picture */
+.compare > figure {
+	position: relative;
+	display: block;
+	margin: 0;
+}
+
+.com_capt {
+	position: absolute;
+	bottom: 8px;
+	left: 43%;
+	font-family: "Helvetica";
+}
